@@ -51,7 +51,9 @@ class _ProfileState extends State<Profile> {
                   width: double.infinity,
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [Colors.grey,Colors.black],
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [Colors.black,Colors.grey],
                     ),
                   ),
                   child: Column(
