@@ -7,7 +7,7 @@ loading screen
 sort user with game
 get match-making
 swipe left or right to like/dislike
-liked users can exchange info/chat/contact/connect gaming accounts
+X liked users can exchange info/chat/contact/connect gaming accounts
 see who liked you
 get user location
 

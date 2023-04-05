@@ -15,7 +15,7 @@ class TagWidget extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12),
       decoration: ShapeDecoration(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(10),
+          borderRadius: BorderRadius.circular(30),
           side: BorderSide(
             color: color,
             width: 4,

@@ -19,56 +19,56 @@ class _CardsStackWidgetState extends State<CardsStackWidget>
         name: 'Not_blackbuck',
         game: 'Counter-Strike:Global Offensive',
         distance: '2 km away',
-        imageAsset: 'assets/images/2.jpg'),
+        imageAsset: 'assets/images/pic1.jpg'),
     const Profile(
         name: 'Frantic',
         game: 'Counter-Strike:Global Offensive',
         distance: '3 km away',
-        imageAsset: 'assets/images/2.jpg'),
+        imageAsset: 'assets/images/pic1.jpg'),
 
     const Profile(
         name: 'Razor',
         game: 'Counter-Strike:Global Offensive',
         distance: '22 km away',
-        imageAsset: 'assets/images/3.jpg'),
+        imageAsset: 'assets/images/pic2.jpg'),
     const Profile(
-        name: 'Forseken',
+        name: 'm0nesy',
         game: 'Counter-Strike:Global Offensive',
         distance: '10 km away',
-        imageAsset: 'assets/images/forseken.jpg'),
+        imageAsset: 'assets/images/pic3.jpg'),
 
     const Profile(
-        name: 'Duke322',
+        name: 'kennyS',
         game: 'Counter-Strike:Global Offensive',
         distance: '17 km away',
-        imageAsset: 'assets/images/4.jpg'),
+        imageAsset: 'assets/images/pic2.jpg'),
     const Profile(
         name: 'Not_blackbuck',
         game: 'Counter-Strike:Global Offensive',
         distance: '2 km away',
-        imageAsset: 'assets/images/2.jpg'),
+        imageAsset: 'assets/images/pic1.jpg'),
     const Profile(
         name: 'Frantic',
         game: 'Counter-Strike:Global Offensive',
         distance: '3 km away',
-        imageAsset: 'assets/images/2.jpg'),
+        imageAsset: 'assets/images/pic3.jpg'),
 
     const Profile(
         name: 'Razor',
         game: 'Counter-Strike:Global Offensive',
         distance: '22 km away',
-        imageAsset: 'assets/images/3.jpg'),
+        imageAsset: 'assets/images/pic1.jpg'),
     const Profile(
-        name: 'Forseken',
+        name: 'kennyS',
         game: 'Counter-Strike:Global Offensive',
         distance: '10 km away',
-        imageAsset: 'assets/images/forseken.jpg'),
+        imageAsset: 'assets/images/pic2.jpg'),
 
     const Profile(
-        name: 'Duke322',
+        name: 'm0nesy',
         game: 'Counter-Strike:Global Offensive',
         distance: '17 km away',
-        imageAsset: 'assets/images/4.jpg'),
+        imageAsset: 'assets/images/pic3.jpg'),
 
   ];
 
@@ -176,7 +176,7 @@ class _CardsStackWidgetState extends State<CardsStackWidget>
                   },
                   icon: const Icon(
                     Icons.close,
-                    color: Colors.grey,
+                    color: Colors.black,
                   ),
                 ),
                 const SizedBox(width: 20),
