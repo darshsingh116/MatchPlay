@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  font_awesome_flutter: '>= 4.7.0'
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -94,7 +96,7 @@ flutter:
 
 
   fonts:
-    - family: Nunito
+    - family: Nunito,
       fonts:
         - asset: assets/fonts/Nunito-Regular.ttf
         - asset: assets/fonts/Nunito-ExtraBold.ttf
@@ -103,3 +105,7 @@ flutter:
     - family: Poppins
       fonts:
         - asset: assets/Poppins/Poppins-Regular.ttf
+    - family: Prosto_One
+      fonts:
+          - asset: assets/Prosto_One/ProstoOne-Regular.ttf
+

@@ -4,7 +4,10 @@ import 'package:matchplay/widgets/cards_stack_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:matchplay/login.dart';
 
-void main() => runApp(signup());
+void main() => runApp(MaterialApp(
+  home: Profile(),
+  theme: ThemeData(fontFamily: 'Poppins'),
+));
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
