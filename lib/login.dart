@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:matchplay/home.dart';
 import 'package:matchplay/main.dart';
 
 class signup extends StatelessWidget {
@@ -98,10 +99,14 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   child: const Text('Login'),
                   onPressed: () {
 
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => const MyApp()),
-                    );
+                    if(nameController.text=="blackbuck" && passwordController.text=="12345"){
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const home()),
+                      );
+                    }
+
+
 
                     print(nameController.text);
                     print(passwordController.text);
