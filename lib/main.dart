@@ -1,6 +1,6 @@
 import 'package:matchplay/profile.dart';
-/*import 'package:matchplay/widgets/background_curve_widget.dart';
-import 'package:matchplay/widgets/cards_stack_widget.dart';*/
+import 'package:matchplay/widgets/background_curve_widget.dart';
+import 'package:matchplay/widgets/cards_stack_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:matchplay/login.dart';
 
@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black12,
         body: Stack(
           children: const [
-           /* BackgroudCurveWidget(),
-            CardsStackWidget(),*/
+            BackgroudCurveWidget(),
+            CardsStackWidget(),
           ],
         ),
       ),
