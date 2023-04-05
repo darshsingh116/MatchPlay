@@ -54,35 +54,34 @@ class _ProfileState extends State<Profile> {
                       colors: [Colors.grey,Colors.black],
                     ),
                   ),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(width: 5, color: Colors.greenAccent), //<-- SEE HERE
-                    ),
-                    child: Column(
-                        children: [
-                          SizedBox(height: 80.0,),
-                          CircleAvatar(
+                  child: Column(
+                      children: [
+                        SizedBox(height: 80.0,),
+                        Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 3, color: Colors.white),
+                            borderRadius: BorderRadius.circular(100), //<-- SEE HERE
+                          ),
+                          child: CircleAvatar(
                             radius: 65.0,
                             backgroundImage: AssetImage('assets/erza.jpg'),
                             backgroundColor: Colors.white,
-
-
                           ),
-                          SizedBox(height: 10.0,),
-                          Text('Erza Scarlet',
-                              style: TextStyle(
-                                  color:Colors.white,
-                                  fontSize: 20.0,
-                                  fontFamily: 'Prosto_One'
-                              )),
-                          SizedBox(height: 2.0,),
-                          Text('S Class Mage',
+                        ),
+                        SizedBox(height: 10.0,),
+                        Text('Erza Scarlet',
                             style: TextStyle(
-                              color:Colors.white,
-                              fontSize: 15.0,
-                            ),)
-                        ]
-                    ),
+                                color:Colors.white,
+                                fontSize: 20.0,
+                                fontFamily: 'Prosto_One'
+                            )),
+                        SizedBox(height: 2.0,),
+                        Text('S Class Mage',
+                          style: TextStyle(
+                            color:Colors.white,
+                            fontSize: 15.0,
+                          ),)
+                      ]
                   ),
                 ),
               ),
@@ -318,6 +317,3 @@ class _ProfileState extends State<Profile> {
     );
   }
 }
-
-
-
