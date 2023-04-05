@@ -45,7 +45,7 @@ class _ProfileState extends State<Profile> {
           Column(
             children: [
               Expanded(
-                flex:5,
+                flex:4,
                 child:Container(
                   width: double.infinity,
                   decoration: BoxDecoration(
@@ -88,7 +88,7 @@ class _ProfileState extends State<Profile> {
               ),
 
               Expanded(
-                flex:5,
+                flex:1,
 
                 child: Container(
 
@@ -97,49 +97,41 @@ class _ProfileState extends State<Profile> {
                   child: Center(
 
                       child:Card(
+                          color: Colors.black45,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),//<-- SEE HERE
                             side: BorderSide(
-                              color: Colors.black87,
+                              color: Colors.black12,
                               width: 3,
                             ),
                           ),
-                          margin: EdgeInsets.fromLTRB(0.0, 40.0, 0.0, 0.0),
+                          margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
                           child: Container(
                               width: 310.0,
-                              height:290.0,
+                              height:60.0,
                               child: Padding(
                                 padding: EdgeInsets.all(10.0),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-
-                                    Padding(
-                                      padding: const EdgeInsets.fromLTRB(8.0,0,0,0),
-                                      child: Text("Information",
-                                        style: TextStyle(
-                                          fontSize: 17.0,
-                                          fontWeight: FontWeight.w800,
-                                        ),),
-                                    ),
-                                    Divider(color: Colors.grey[300],),
                                     Row(
                                       mainAxisAlignment: MainAxisAlignment.start,
                                       children: [
                                         Icon(
-                                          Icons.home,
-                                          color: Colors.blueAccent[400],
+                                          Icons.location_on,
+                                          color: Colors.white70,
                                           size: 35,
                                         ),
                                         SizedBox(width: 20.0,),
                                         Column(
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
-                                            Text("Guild",
+                                            Text("Germany",
                                               style: TextStyle(
                                                 fontSize: 15.0,
+                                                color: Colors.white,
                                               ),),
-                                            Text("FairyTail, Magnolia",
+                                            Text("Berlin",
                                               style: TextStyle(
                                                 fontSize: 12.0,
                                                 color: Colors.grey[400],
@@ -149,92 +141,150 @@ class _ProfileState extends State<Profile> {
 
                                       ],
                                     ),
-                                    SizedBox(height: 20.0,),
-                                    Row(
-                                      mainAxisAlignment: MainAxisAlignment.start,
-                                      children: [
-                                        Icon(
-                                          Icons.auto_awesome,
-                                          color: Colors.yellowAccent[400],
-                                          size: 35,
-                                        ),
-                                        SizedBox(width: 20.0,),
-                                        Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                          children: [
-                                            Text("Magic",
-                                              style: TextStyle(
-                                                fontSize: 15.0,
-                                              ),),
-                                            Text("Spatial & Sword Magic, Telekinesis",
-                                              style: TextStyle(
-                                                fontSize: 12.0,
-                                                color: Colors.grey[400],
-                                              ),)
-                                          ],
-                                        )
 
-                                      ],
-                                    ),
-                                    SizedBox(height: 20.0,),
-                                    Row(
-                                      mainAxisAlignment: MainAxisAlignment.start,
-                                      children: [
-                                        Icon(
-                                          Icons.favorite,
-                                          color: Colors.pinkAccent[400],
-                                          size: 35,
-                                        ),
-                                        SizedBox(width: 20.0,),
-                                        Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                          children: [
-                                            Text("Loves",
-                                              style: TextStyle(
-                                                fontSize: 15.0,
-                                              ),),
-                                            Text("Eating cakes",
-                                              style: TextStyle(
-                                                fontSize: 12.0,
-                                                color: Colors.grey[400],
-                                              ),)
-                                          ],
-                                        )
 
-                                      ],
-                                    ),
-                                    SizedBox(height: 20.0,),
-                                    Row(
-                                      mainAxisAlignment: MainAxisAlignment.start,
-                                      children: [
-                                        Icon(
-                                          Icons.people,
-                                          color: Colors.lightGreen[400],
-                                          size: 35,
-                                        ),
-                                        SizedBox(width: 20.0,),
-                                        Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                          children: [
-                                            Text("Team",
-                                              style: TextStyle(
-                                                fontSize: 15.0,
-                                              ),),
-                                            Text("Team Natsu",
-                                              style: TextStyle(
-                                                fontSize: 12.0,
-                                                color: Colors.grey[400],
-                                              ),)
-                                          ],
-                                        )
 
-                                      ],
-                                    ),
                                   ],
                                 ),
                               )
                           )
-                      )
+                      ),
+
+
+                  ),
+                ),
+              ),
+              Expanded(
+                flex:1,
+
+                child: Container(
+
+                  color: Colors.grey[200],
+
+                  child: Center(
+
+                    child:Card(
+                        color: Colors.black45,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30),//<-- SEE HERE
+                          side: BorderSide(
+                            color: Colors.black12,
+                            width: 3,
+                          ),
+                        ),
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
+                        child: Container(
+                            width: 310.0,
+                            height:60.0,
+                            child: Padding(
+                              padding: EdgeInsets.all(10.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Icon(
+                                        Icons.people,
+                                        color: Colors.white70,
+                                        size: 35,
+                                      ),
+                                      SizedBox(width: 20.0,),
+                                      Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text("Friends",
+                                            style: TextStyle(
+                                              fontSize: 15.0,
+                                              color: Colors.white,
+                                            ),),
+                                          Text("20",
+                                            style: TextStyle(
+                                              fontSize: 12.0,
+                                              color: Colors.grey[400],
+                                            ),)
+                                        ],
+                                      )
+
+                                    ],
+                                  ),
+
+
+
+                                ],
+                              ),
+                            )
+                        )
+                    ),
+
+
+                  ),
+                ),
+              ),
+              Expanded(
+                flex:1,
+
+                child: Container(
+
+                  color: Colors.grey[200],
+
+                  child: Center(
+
+                    child:Card(
+                        color: Colors.black45,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30),//<-- SEE HERE
+                          side: BorderSide(
+                            color: Colors.black12,
+                            width: 3,
+                          ),
+                        ),
+                        margin: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0),
+                        child: Container(
+                            width: 310.0,
+                            height:60.0,
+                            child: Padding(
+                              padding: EdgeInsets.all(10.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Icon(
+                                        Icons.gamepad,
+                                        color: Colors.white70,
+                                        size: 35,
+                                      ),
+                                      SizedBox(width: 20.0,),
+                                      Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text("Games",
+                                            style: TextStyle(
+                                              fontSize: 15.0,
+                                              color: Colors.white,
+                                            ),),
+                                          Text("CSGO",
+                                            style: TextStyle(
+                                              fontSize: 12.0,
+                                              color: Colors.grey[400],
+                                            ),)
+                                        ],
+                                      )
+
+                                    ],
+                                  ),
+
+
+
+                                ],
+                              ),
+                            )
+                        )
+                    ),
+
+
                   ),
                 ),
               ),
@@ -261,13 +311,13 @@ class _ProfileState extends State<Profile> {
                         Container(
                             child:Column(
                               children: [
-                                Text('Battles',
+                                Text('Level',
                                   style: TextStyle(
                                       color: Colors.grey[400],
                                       fontSize: 14.0
                                   ),),
                                 SizedBox(height: 5.0,),
-                                Text("$counter",
+                                Text("1",
                                   style: TextStyle(
                                     fontSize: 15.0,
                                   ),)
