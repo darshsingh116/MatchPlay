@@ -12,7 +12,7 @@ class signup extends StatelessWidget {
     return MaterialApp(
       title: _title,
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.grey[700],
         body: const MyStatefulWidget(),
       ),
     );
@@ -46,10 +46,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             Container(
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(10),
-                child: const Text(
-                  'Log in',
+                child: Text(
+                  'Log In',
                   style: TextStyle(
                     color: Colors.white,
+                      fontFamily: "Poppins",
                       fontSize: 60),
                 )),
             SizedBox(
@@ -95,8 +96,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                       primary: Color(11714579),
                       textStyle: TextStyle(
                           fontSize: 30,
+                          fontFamily: "Poppins",
                           fontWeight: FontWeight.bold)),
-                  child: const Text('Login'),
+                  child: Text('Login'),
                   onPressed: () {
 
                     if(nameController.text=="blackbuck" && passwordController.text=="12345"){
