@@ -52,7 +52,7 @@ class home extends StatelessWidget {
             },
                 child: Text("Profile page"))
 
-
+//
           ],
         ));
   }
